@@ -1,0 +1,165 @@
+body, html{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.container{
+   max-width: 100%;
+   margin:0 0 0 0;
+   padding: 0 0;
+   background: white;
+}
+.container .header-info img{
+    height: 50px;
+}
+.ytlogo{
+    height: auto;
+    width: 124px;
+}
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;  
+}
+.header-center{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.header-center a{
+    padding-left: 10px;
+}
+.header-center a img{
+    height: 16px;
+    width: 16px;
+}
+.search{
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 40px;
+    width: 500px;
+}
+.header-center .searchbtn{
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 42px;
+    width: 34px;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icons a{
+    padding-right: 20px;
+    
+}
+.header-icons img{
+    height:26px;
+    width: 26px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.navi{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    margin:0;
+    height: 100%;
+    justify-content: space-around;
+    background-color: white;
+}
+.menucont a{
+    text-decoration: none;
+    display: flex;
+}
+.menucont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.navi-logo img{
+    height: 16px;
+    width: 16px;
+    margin-right: 16px;
+}
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(14, 104, 95); */
+    width: 100%;
+    height: 100%;
+}
+hr{
+    margin: 0%;
+}
+.filters{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 13.4px 7.5px;
+    
+}
+.btn{
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: rgb(243, 242, 242);
+    border: 1px solid black;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.adv{
+    display: flex;
+    background-color: grey;
+    color: white;
+    
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.ytlogo{
+    display: flex;
+}
+.ytlogo img{
+    margin-right: 10px;
+}
+.advbtn{
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+.rightside{
+    display: block;
+    width: 50%;
+    background-image: url(img/right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.video{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 50px;
+    background-color: white;
+}
+
